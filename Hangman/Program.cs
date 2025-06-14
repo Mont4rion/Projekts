@@ -7,7 +7,7 @@ class Hangman
     public static void Main()
     {
         // Pfad zur Wörterdatei. Stelle sicher, dass die Datei dort existiert.
-        string dateipfad = @"C:\Projekts\Hangman\top10000de.txt";
+        string dateipfad = "top10000de.txt";
         
         // Zufallsgenerator für die Wortauswahl
         Random choice = new Random();
