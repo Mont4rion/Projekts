@@ -1,0 +1,14 @@
+C:\Projekts\MeinTaschenrechner\bin\Debug\net9.0\MeinTaschenrechner.exe
+C:\Projekts\MeinTaschenrechner\bin\Debug\net9.0\MeinTaschenrechner.deps.json
+C:\Projekts\MeinTaschenrechner\bin\Debug\net9.0\MeinTaschenrechner.runtimeconfig.json
+C:\Projekts\MeinTaschenrechner\bin\Debug\net9.0\MeinTaschenrechner.dll
+C:\Projekts\MeinTaschenrechner\bin\Debug\net9.0\MeinTaschenrechner.pdb
+C:\Projekts\MeinTaschenrechner\obj\Debug\net9.0\MeinTaschenrechner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projekts\MeinTaschenrechner\obj\Debug\net9.0\MeinTaschenrechner.AssemblyInfoInputs.cache
+C:\Projekts\MeinTaschenrechner\obj\Debug\net9.0\MeinTaschenrechner.AssemblyInfo.cs
+C:\Projekts\MeinTaschenrechner\obj\Debug\net9.0\MeinTaschenrechner.csproj.CoreCompileInputs.cache
+C:\Projekts\MeinTaschenrechner\obj\Debug\net9.0\MeinTaschenrechner.dll
+C:\Projekts\MeinTaschenrechner\obj\Debug\net9.0\refint\MeinTaschenrechner.dll
+C:\Projekts\MeinTaschenrechner\obj\Debug\net9.0\MeinTaschenrechner.pdb
+C:\Projekts\MeinTaschenrechner\obj\Debug\net9.0\MeinTaschenrechner.genruntimeconfig.cache
+C:\Projekts\MeinTaschenrechner\obj\Debug\net9.0\ref\MeinTaschenrechner.dll

@@ -1,0 +1,14 @@
+C:\Projekts\Hangman\bin\Debug\net9.0\Hangman.exe
+C:\Projekts\Hangman\bin\Debug\net9.0\Hangman.deps.json
+C:\Projekts\Hangman\bin\Debug\net9.0\Hangman.runtimeconfig.json
+C:\Projekts\Hangman\bin\Debug\net9.0\Hangman.dll
+C:\Projekts\Hangman\bin\Debug\net9.0\Hangman.pdb
+C:\Projekts\Hangman\obj\Debug\net9.0\Hangman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projekts\Hangman\obj\Debug\net9.0\Hangman.AssemblyInfoInputs.cache
+C:\Projekts\Hangman\obj\Debug\net9.0\Hangman.AssemblyInfo.cs
+C:\Projekts\Hangman\obj\Debug\net9.0\Hangman.csproj.CoreCompileInputs.cache
+C:\Projekts\Hangman\obj\Debug\net9.0\Hangman.dll
+C:\Projekts\Hangman\obj\Debug\net9.0\refint\Hangman.dll
+C:\Projekts\Hangman\obj\Debug\net9.0\Hangman.pdb
+C:\Projekts\Hangman\obj\Debug\net9.0\Hangman.genruntimeconfig.cache
+C:\Projekts\Hangman\obj\Debug\net9.0\ref\Hangman.dll

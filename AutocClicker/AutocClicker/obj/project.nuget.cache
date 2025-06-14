@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "49xq6WDpoTo=",
+  "success": true,
+  "projectFilePath": "C:\\Projekts\\AutocClicker\\AutocClicker\\AutocClicker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sebki\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.5\\microsoft.win32.systemevents.9.0.5.nupkg.sha512",
+    "C:\\Users\\sebki\\.nuget\\packages\\system.drawing.common\\9.0.5\\system.drawing.common.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

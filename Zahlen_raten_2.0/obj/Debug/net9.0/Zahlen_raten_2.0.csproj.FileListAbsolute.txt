@@ -1,0 +1,17 @@
+C:\Projekts\Zahlen_raten_2.0\bin\Debug\net9.0\Zahlen_raten_2.0.exe
+C:\Projekts\Zahlen_raten_2.0\bin\Debug\net9.0\Zahlen_raten_2.0.deps.json
+C:\Projekts\Zahlen_raten_2.0\bin\Debug\net9.0\Zahlen_raten_2.0.runtimeconfig.json
+C:\Projekts\Zahlen_raten_2.0\bin\Debug\net9.0\Zahlen_raten_2.0.dll
+C:\Projekts\Zahlen_raten_2.0\bin\Debug\net9.0\Zahlen_raten_2.0.pdb
+C:\Projekts\Zahlen_raten_2.0\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Projekts\Zahlen_raten_2.0\obj\Debug\net9.0\Zahlen_raten_2.0.csproj.AssemblyReference.cache
+C:\Projekts\Zahlen_raten_2.0\obj\Debug\net9.0\Zahlen_raten_2.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projekts\Zahlen_raten_2.0\obj\Debug\net9.0\Zahlen_raten_2.0.AssemblyInfoInputs.cache
+C:\Projekts\Zahlen_raten_2.0\obj\Debug\net9.0\Zahlen_raten_2.0.AssemblyInfo.cs
+C:\Projekts\Zahlen_raten_2.0\obj\Debug\net9.0\Zahlen_raten_2.0.csproj.CoreCompileInputs.cache
+C:\Projekts\Zahlen_raten_2.0\obj\Debug\net9.0\Zahlen_r.4E8236C7.Up2Date
+C:\Projekts\Zahlen_raten_2.0\obj\Debug\net9.0\Zahlen_raten_2.0.dll
+C:\Projekts\Zahlen_raten_2.0\obj\Debug\net9.0\refint\Zahlen_raten_2.0.dll
+C:\Projekts\Zahlen_raten_2.0\obj\Debug\net9.0\Zahlen_raten_2.0.pdb
+C:\Projekts\Zahlen_raten_2.0\obj\Debug\net9.0\Zahlen_raten_2.0.genruntimeconfig.cache
+C:\Projekts\Zahlen_raten_2.0\obj\Debug\net9.0\ref\Zahlen_raten_2.0.dll

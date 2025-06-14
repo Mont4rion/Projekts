@@ -1,0 +1,14 @@
+C:\Projekts\Zahlen_raten\bin\Debug\net9.0\Zahlen_raten.exe
+C:\Projekts\Zahlen_raten\bin\Debug\net9.0\Zahlen_raten.deps.json
+C:\Projekts\Zahlen_raten\bin\Debug\net9.0\Zahlen_raten.runtimeconfig.json
+C:\Projekts\Zahlen_raten\bin\Debug\net9.0\Zahlen_raten.dll
+C:\Projekts\Zahlen_raten\bin\Debug\net9.0\Zahlen_raten.pdb
+C:\Projekts\Zahlen_raten\obj\Debug\net9.0\Zahlen_raten.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projekts\Zahlen_raten\obj\Debug\net9.0\Zahlen_raten.AssemblyInfoInputs.cache
+C:\Projekts\Zahlen_raten\obj\Debug\net9.0\Zahlen_raten.AssemblyInfo.cs
+C:\Projekts\Zahlen_raten\obj\Debug\net9.0\Zahlen_raten.csproj.CoreCompileInputs.cache
+C:\Projekts\Zahlen_raten\obj\Debug\net9.0\Zahlen_raten.dll
+C:\Projekts\Zahlen_raten\obj\Debug\net9.0\refint\Zahlen_raten.dll
+C:\Projekts\Zahlen_raten\obj\Debug\net9.0\Zahlen_raten.pdb
+C:\Projekts\Zahlen_raten\obj\Debug\net9.0\Zahlen_raten.genruntimeconfig.cache
+C:\Projekts\Zahlen_raten\obj\Debug\net9.0\ref\Zahlen_raten.dll

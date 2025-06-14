@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "K29t+J8Egk8=",
+  "success": true,
+  "projectFilePath": "C:\\Projekts\\Zahlen_raten_2.0\\Zahlen_raten_2.0.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sebki\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
