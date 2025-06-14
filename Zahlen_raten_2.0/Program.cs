@@ -13,8 +13,8 @@ class Zaheln_raten
     static int Score;
     static int LastScore;
     static int ScoreDif = 0;
-    static bool Playing = false; 
-    static bool keepPlayingOverall = true; 
+    static bool Playing = false;    
+    static bool keepPlayingOverall = true;    
     static bool FirstRound = true;
     static string Start;
     static string Input;
@@ -25,7 +25,7 @@ class Zaheln_raten
     // --- API-SPEZIFISCHE VARIABLEN ---
     private static readonly HttpClient _httpClient = new HttpClient();
     private const string ApiBaseUrl = "https://api.random.org/json-rpc/4/invoke"; // Endpunkt für JSON-RPC
-    private const string YourApiKey = "3bd94629-82e5-4b5f-b155-1ea17707984d"; // IHR API-SCHLÜSSEL
+    private const string YourApiKey = "Gebe dein API Key hier ein"; // IHR API-SCHLÜSSEL
 
     // --- MAIN METHODE WIRD NUN ASYNCHRON ---
     static async Task Main() // Hinzugefügt: async Task
@@ -36,12 +36,12 @@ class Zaheln_raten
         if (Start.ToLower() == "start") // .ToLower() für case-insensitive "start"
         {
             Playing = true;
-            keepPlayingOverall = true; 
+            keepPlayingOverall = true;    
             Score = 0;
 
             // --- ERSTER API-AUFRUF HIER ---
             // Versuche, die erste Zahl von der API zu holen
-            Number = await GetRandomIntegerFromApi(1, 100); 
+            Number = await GetRandomIntegerFromApi(1, 100);    
             if (Number == -1) // Fehlercode für API-Problem
             {
                 Console.WriteLine("Konnte die erste Zufallszahl nicht von random.org abrufen. Spiel beendet.");
@@ -56,13 +56,13 @@ class Zaheln_raten
         {
             Console.WriteLine("Danke fürs Spielen! Auf Wiedersehen.");
             Console.ReadKey();
-            return; 
+            return;    
         }
         else
         {
             Console.WriteLine("Ungültige Eingabe. Gebe 'Start' ein, um das Spiel zu beginnen, oder 'Exit' zum Beenden.");
             Console.ReadKey();
-            return; 
+            return;    
         }
 
         while (keepPlayingOverall) // Die äußere Schleife für "Nochmal spielen"
@@ -70,13 +70,13 @@ class Zaheln_raten
             Playing = true;
             
             // Score der vorherigen Runde speichern, BEVOR der aktuelle Score zurückgesetzt wird
-            if (!FirstRound) 
+            if (!FirstRound)    
             {
-                LastScore = Score; 
+                LastScore = Score;    
             }
             
             Score = 0; // Score für die neue Runde zurücksetzen
-            Console.WriteLine("\n--- Neue Runde ---"); 
+            Console.WriteLine("\n--- Neue Runde ---");    
             
             // --- API-AUFRUF FÜR JEDE NEUE RUNDE ---
             Number = await GetRandomIntegerFromApi(1, 100); // Holen Sie eine neue Zahl für jede Runde
@@ -93,7 +93,7 @@ class Zaheln_raten
             while (Playing == true)
             {
                 Console.WriteLine($"Du hast {Score} Versuche genutzt");
-                Console.WriteLine("Gebe eine Nummer ein, um die Gesuchte Zahl zu finden (zwischen 1 und 99):"); 
+                Console.WriteLine("Gebe eine Nummer ein, um die Gesuchte Zahl zu finden (zwischen 1 und 99):");    
 
                 Input = Console.ReadLine();
 
@@ -117,9 +117,9 @@ class Zaheln_raten
                 }
                 else if (Input.ToLower() == "exit")
                 {
-                    exitedEarly = true; 
-                    Playing = false; 
-                    keepPlayingOverall = false; 
+                    exitedEarly = true;    
+                    Playing = false;    
+                    keepPlayingOverall = false;    
                 }
                 else
                 {
@@ -146,27 +146,27 @@ class Zaheln_raten
 
                 if (End.ToLower() == "exit")
                 {
-                    keepPlayingOverall = false; 
+                    keepPlayingOverall = false;    
                 }
             }
-        } 
+        }    
 
         if (!exitedEarly)
         {
             Console.WriteLine("Danke fürs Spielen! Auf Wiedersehen.");
         }
-        Console.ReadKey(); 
+        Console.ReadKey();    
     }
 
     static void LastRechner()
     {
-        ScoreDif = Math.Abs(LastScore - Score); 
+        ScoreDif = Math.Abs(LastScore - Score);    
 
-        if (Score < LastScore) 
+        if (Score < LastScore)    
         {
             ScoreOutput = ($"Du warst {ScoreDif} Versuche schneller als in der letzten Runde!");
         }
-        else if (Score > LastScore) 
+        else if (Score > LastScore)    
         {
             ScoreOutput = ($"Du warst leider {ScoreDif} Versuche langsamer als in der letzten Runde.");
         }
@@ -179,7 +179,7 @@ class Zaheln_raten
     // --- NEUE METHODE ZUR ABFRAGE DER RANDOM.ORG API ---
     static async Task<int> GetRandomIntegerFromApi(int min, int max)
     {
-        if (string.IsNullOrWhiteSpace(YourApiKey))
+        if (string.IsNullOrWhiteSpace(YourApiKey) || YourApiKey == "Gebe dein API Key hier ein")
         {
             Console.WriteLine("Fehler: Der API-Schlüssel ist leer oder ungültig. Bitte stellen Sie sicher, dass Ihr API-Schlüssel korrekt eingefügt ist.");
             return -1; // Fehlercode
@@ -194,12 +194,12 @@ class Zaheln_raten
                 @params = new
                 {
                     apiKey = YourApiKey,
-                    n = 1,   // Wir brauchen nur EINE Zahl
+                    n = 1,    // Wir brauchen nur EINE Zahl
                     min = min,
                     max = max,
-                    replacement = true, 
+                    replacement = true,    
                 },
-                id = 1 
+                id = 1    
             };
 
             string jsonRequest = JsonConvert.SerializeObject(requestBody);
@@ -209,7 +209,7 @@ class Zaheln_raten
             // Console.WriteLine($"Anfrage-Payload: {jsonRequest}"); // Kann für Debugging aktiviert werden
 
             HttpResponseMessage response = await _httpClient.PostAsync(ApiBaseUrl, content);
-            response.EnsureSuccessStatusCode(); 
+            response.EnsureSuccessStatusCode();    
 
             string responseBody = await response.Content.ReadAsStringAsync();
             // Console.WriteLine($"Antwort von der API: {responseBody}"); // Kann für Debugging aktiviert werden
