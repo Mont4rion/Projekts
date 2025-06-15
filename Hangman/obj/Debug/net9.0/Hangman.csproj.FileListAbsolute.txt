@@ -12,3 +12,4 @@ C:\Projekts\Hangman\obj\Debug\net9.0\refint\Hangman.dll
 C:\Projekts\Hangman\obj\Debug\net9.0\Hangman.pdb
 C:\Projekts\Hangman\obj\Debug\net9.0\Hangman.genruntimeconfig.cache
 C:\Projekts\Hangman\obj\Debug\net9.0\ref\Hangman.dll
+C:\Projekts\Hangman\obj\Debug\net9.0\Hangman.sourcelink.json

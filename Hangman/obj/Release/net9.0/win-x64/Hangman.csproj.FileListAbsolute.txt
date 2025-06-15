@@ -197,3 +197,4 @@ C:\Projekts\Hangman\obj\Release\net9.0\win-x64\refint\Hangman.dll
 C:\Projekts\Hangman\obj\Release\net9.0\win-x64\Hangman.pdb
 C:\Projekts\Hangman\obj\Release\net9.0\win-x64\Hangman.genruntimeconfig.cache
 C:\Projekts\Hangman\obj\Release\net9.0\win-x64\ref\Hangman.dll
+C:\Projekts\Hangman\obj\Release\net9.0\win-x64\Hangman.sourcelink.json
